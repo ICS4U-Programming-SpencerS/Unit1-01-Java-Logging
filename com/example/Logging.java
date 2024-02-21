@@ -3,7 +3,7 @@ package com.example;
 import java.util.Scanner;
 
 /**
- * Program designed to calculate the amount of logs with a specific 
+ * Program designed to calculate the amount of logs with a specific
  * diameter that can be carried in a truck.
  *
  * @author Spencer S.
