@@ -43,19 +43,19 @@ public final class Logging {
         if (logLen == 1.0) {
           final Double logWeight = logLen * weightPrM;
           final Integer numberLogs = (int) (truckMaxW / logWeight);
-          System.out.println("You can fit: " + numberLogs + "1m logs.");
+          System.out.println("You can fit: " + numberLogs + " 1m logs.");
         } else {
           // Calculation for 0.5m logs.
           if (logLen == lenHaf) {
             final Double logWeight = logLen * weightPrM;
             final Integer numberLogs = (int) (truckMaxW / logWeight);
-            System.out.println("You can only fit: " + numberLogs + "0.5 logs.");
+            System.out.println("You can only fit: " + numberLogs + " 0.5m logs.");
           } else {
             // Calculation for 0.25m logs.
             if (logLen == lenQua) {
               final Double logWeight = logLen * weightPrM;
               final Integer numberLogs = (int) (truckMaxW / logWeight);
-              System.out.println("You may fit:" + numberLogs + "0.25 logs.");
+              System.out.println("You may fit: " + numberLogs + " 0.25m logs.");
             }
           }
         }
