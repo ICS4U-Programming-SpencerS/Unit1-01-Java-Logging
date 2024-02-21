@@ -30,7 +30,7 @@ public final class Logging {
 
     // Unchecked user input
     System.out.print("Hello and welcome to my logging company!");
-    System.out.print("Enter the length of the logs below: ");
+    System.out.print("Enter the length of the log(1, 0.5, or 0.25 allowed): ");
     final Scanner in = new Scanner(System.in);
     final String logLengthS = in.nextLine();
     // Try catch for anything other then numbers.
